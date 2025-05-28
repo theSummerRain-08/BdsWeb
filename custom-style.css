@@ -1,0 +1,343 @@
+:root {
+  --primary-color: #474b5c;
+}
+
+.full-width .ubermenu-nav,
+.container,
+.row {
+  max-width: 1570px;
+}
+.row.row-collapse {
+  max-width: 1540px;
+}
+.row.row-small {
+  max-width: 1562.5px;
+}
+.row.row-large {
+  max-width: 1600px;
+}
+
+.header-main {
+  height: 100px;
+}
+#logo img {
+  height: 100px;
+  padding: 1px 0;
+}
+#logo {
+  width: auto;
+}
+
+.header-bottom {
+  min-height: 10px;
+}
+.header-top {
+  min-height: 30px;
+}
+
+.has-transparent + .page-title:first-of-type,
+.has-transparent + #main > .page-title,
+.has-transparent + #main > div > .page-title,
+.has-transparent + #main .page-header-wrapper:first-of-type .page-title {
+  padding-top: 69px;
+}
+
+.header.show-on-scroll,
+.stuck .header-main {
+  height: 100px !important;
+}
+
+.stuck #logo img {
+  height: 100px !important;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.header-bg-color,
+.header-wrapper {
+  background-color: #f4ebdc;
+}
+
+.header-bottom {
+  background-color: #f4ebdc;
+}
+
+.stuck .header-main .nav > li > a {
+  line-height: 50px;
+}
+
+.header-bottom-nav > li > a {
+  line-height: 9px;
+}
+
+@media (max-width: 549px) {
+  .header-main {
+    height: auto;
+  }
+  #logo img {
+    height: auto;
+  }
+}
+
+/* Color */
+.accordion-title.active,
+.has-icon-bg .icon .icon-inner,
+.logo a,
+.primary.is-underline,
+.primary.is-link,
+.badge-outline .badge-inner,
+.nav-outline > li.active > a,
+.cart-icon strong,
+[data-color="primary"],
+.is-outline.primary {
+  color: #474b5c;
+}
+
+[data-text-color="primary"] {
+  color: #474b5c !important;
+}
+
+/* Background Color */
+[data-text-bg="primary"] {
+  background-color: #474b5c;
+}
+
+/* Background */
+.scroll-to-bullets a,
+.featured-title,
+.label-new.menu-item > a:after,
+.nav-pagination > li > .current,
+.nav-pagination > li > span:hover,
+.nav-pagination > li > a:hover,
+.has-hover:hover .badge-outline .badge-inner,
+button[type="submit"],
+.button.wc-forward:not(.checkout):not(.checkout-button),
+.button.submit-button,
+.button.primary:not(.is-outline),
+.featured-table .title,
+.is-outline:hover,
+.has-icon:hover .icon-label,
+.nav-dropdown-bold .nav-column li > a:hover,
+.nav-dropdown.nav-dropdown-bold > li > a:hover,
+.nav-dropdown-bold.dark .nav-column li > a:hover,
+.nav-dropdown.nav-dropdown-bold.dark > li > a:hover,
+.tagcloud a:hover,
+.grid-tools a,
+input[type="submit"]:not(.is-form),
+.box-badge:hover .box-text,
+input.button.alt,
+.nav-box > li > a:hover,
+.nav-box > li.active > a,
+.nav-pills > li.active > a,
+.current-dropdown .cart-icon strong,
+.cart-icon:hover strong,
+.nav-line-bottom > li > a:before,
+.nav-line-grow > li > a:before,
+.nav-line > li > a:before,
+.banner,
+.header-top,
+.slider-nav-circle .flickity-prev-next-button:hover svg,
+.slider-nav-circle .flickity-prev-next-button:hover .arrow,
+.primary.is-outline:hover,
+input[type="submit"].primary,
+input[type="reset"].button,
+input[type="button"].primary,
+.badge-inner {
+  background-color: #474b5c;
+}
+
+/* Border */
+.nav-vertical.nav-tabs > li.active > a,
+.scroll-to-bullets a.active,
+.nav-pagination > li > .current,
+.nav-pagination > li > span:hover,
+.nav-pagination > li > a:hover,
+.accordion-title.active,
+.featured-table,
+.is-outline:hover,
+.tagcloud a:hover,
+blockquote,
+.has-border,
+.cart-icon strong:after,
+.cart-icon strong,
+.blockUI:before,
+.processing:before,
+.loading-spin,
+.slider-nav-circle .flickity-prev-next-button:hover svg,
+.slider-nav-circle .flickity-prev-next-button:hover .arrow {
+  border-color: #474b5c;
+}
+
+.nav-tabs > li.active > a {
+  border-top-color: #474b5c;
+}
+
+.widget_shopping_cart_content .blockUI.blockOverlay:before,
+.woocommerce-checkout-review-order .blockUI.blockOverlay:before {
+  border-left-color: #474b5c;
+}
+
+/* Fill */
+.slider .flickity-prev-next-button:hover svg,
+.slider .flickity-prev-next-button:hover .arrow {
+  fill: #474b5c;
+}
+
+/* Secondary Color */
+[data-icon-label]:after,
+.secondary.is-underline:hover,
+.secondary.is-outline:hover,
+.icon-label,
+.button.secondary:not(.is-outline),
+.button.alt:not(.is-outline),
+.badge-inner.on-sale,
+.button.checkout,
+.single_add_to_cart_button,
+.current .breadcrumb-step {
+  background-color: #f27a0f;
+}
+
+[data-text-bg="secondary"] {
+  background-color: #f27a0f;
+}
+
+.secondary.is-underline,
+.secondary.is-link,
+.secondary.is-outline,
+.stars a.active,
+.star-rating:before,
+.woocommerce-page .star-rating:before,
+.star-rating span:before,
+.color-secondary {
+  color: #f27a0f;
+}
+
+[data-text-color="secondary"] {
+  color: #f27a0f !important;
+}
+
+.secondary.is-outline:hover {
+  border-color: #f27a0f;
+}
+
+/* Typography */
+body {
+  font-size: 95%;
+  font-family: "Helvetica,Arial,sans-serif", sans-serif;
+  font-weight: 0;
+  color: #212529;
+}
+
+@media screen and (max-width: 549px) {
+  body {
+    font-size: 100%;
+  }
+}
+
+.nav > li > a {
+  font-family: "Helvetica,Arial,sans-serif", sans-serif;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.banner h1,
+.banner h2,
+.off-canvas-center .nav-sidebar.nav-vertical > li > a {
+  font-family: "Helvetica,Arial,sans-serif", sans-serif;
+  font-weight: 700;
+}
+
+.alt-font {
+  font-family: "Helvetica,Arial,sans-serif", sans-serif;
+}
+
+.header:not(.transparent) .header-nav.nav > li > a {
+  color: #a57f4e;
+}
+
+/* Labels */
+.label-new.menu-item > a:after {
+  content: "New";
+}
+.label-hot.menu-item > a:after {
+  content: "Hot";
+}
+.label-sale.menu-item > a:after {
+  content: "Sale";
+}
+.label-popular.menu-item > a:after {
+  content: "Popular";
+}
+
+/* Custom WP Style */
+body {
+  color: #546da8;
+  background: #a57f4e !important;
+}
+
+#wrapper,
+#main {
+  background-color: #f4ebdc;
+  position: relative;
+}
+
+.header-bg-color,
+.header-wrapper {
+  background-color: #bb8339;
+}
+
+#logo img.header-logo {
+  z-index: 4242442;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  background: none;
+  margin-top: 0px;
+  max-height: 116px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header:not(.transparent) .header-nav.nav > li > a {
+  color: #ffffff;
+}
+
+.title-right p {
+  width: 183px;
+  height: 200px;
+  color: #fff;
+  position: absolute;
+  top: 180px !important;
+  right: 3px;
+  font-size: 13px;
+  font-family: "iCielGotham-Bold";
+  transform-origin: 100% 0;
+  transform: rotate(90deg);
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #a57f4e;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeSpeed;
+}
+
+a:hover,
+a.remove:hover,
+a.icon-circle:hover {
+  color: #7e5d28;
+}
