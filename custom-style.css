@@ -341,3 +341,44 @@ a.remove:hover,
 a.icon-circle:hover {
   color: #7e5d28;
 }
+
+/* tong quan css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Ảnh nền full màn hình */
+.hero-section {
+  width: 100vw;
+  height: 70vh;
+  background: url("images/tongquanbg.jpg") no-repeat center center/cover;
+}
+
+/* Tiêu đề */
+.overview-title {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #fff;
+}
+
+.overview-title h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Nội dung */
+.overview-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
